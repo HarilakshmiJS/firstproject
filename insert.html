@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSERTION</title>
+    <link rel="stylesheet" href="insert.css">
+    <style>
+     .ins
+     {
+        width: 350px;
+        padding: 10px;
+        border: 3px solid #6178da;
+        margin: 0;
+        padding: 20px;
+        background-color: rgb(253, 254, 255);
+        border-radius: 10px;
+        width: 30%;
+     }
+
+    </style>
+</head>
+<body>
+    <form  method="post" action="insert.php" autocomplete="off">
+        <div class="ins" >
+            
+            <h2><strong>INSERTION</strong></h2><br>
+            <label for="ir"class="label_class">REGISTER NO:<span class="req">*</span></label><br> 
+            <input id="ir"type="number"  class="inputbox" name="reid" placeholder="enter your register No" required><br>
+
+            <label for="name"  class="label_class">NAME:<span class="req">*</span></label><br>
+            <input id="name" type="text" class="inputbox"  name="name" placeholder="enter your name" required><br>
+
+            <label for="clg"  class="label_class">COLLEGE:<span class="req">*</span></label><br>
+            <input id="clg" type="text" class="inputbox"  name="college" placeholder="enter your college" required><br>
+
+            <label for="dept" class="label_class">DEPARTMENT:<span class="req">*</span></label><br>
+            <input id="dept"type="text"  class="inputbox"  name="department" placeholder="enter your department" required><br> 
+
+            <label for="do" class="label_class">DOMAIN:<span class="req">*</span></label><br>
+            <input id="do"type="text"  class="inputbox"  name="domain" placeholder="enter your domain" required><br> 
+
+            <label for="phno" class="label_class">PHONE NUMBER:<span class="req">*</span></label> <br>
+            <input id="phno" type="number" class="inputbox"  name="phonenumber" placeholder="enter your phone number" required><br>
+
+            <label for="mail" class="label_class">MAIL:<span class="req">*</span></label><br> 
+            <input id="mail"type="email" class="inputbox"  name="email" placeholder="enter your email" required>  <br>
+
+            <input id="sub" type="submit" value="Insert" class="button">
+        </div>
+    </form>
+</body>
+</html>
